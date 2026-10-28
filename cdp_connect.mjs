@@ -13,9 +13,9 @@
  *
  * 用法：
  *   import { connect } from './cdp_connect.mjs';
- *   const { browser, ctx, page } = await connect({ host: 'job.citicbank.com' });
+ *   const { browser, ctx, page } = await connect({ host: 'jobs.example.com' });
  */
-import pkg from '/Users/liyumeng/.workbuddy/binaries/node/workspace/node_modules/playwright-core/index.js';
+import pkg from 'playwright-core';
 const { chromium } = pkg;
 
 const CDP = 'http://127.0.0.1:9222';

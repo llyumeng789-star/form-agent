@@ -1,4 +1,4 @@
-// 京东方（campus.boe.com，北森 Beisen phoenix UI）填表库
+// 表单组件交互库（北森 Beisen phoenix UI 及同类企业中后台组件）
 import { connect, disconnect } from './cdp_connect.mjs';
 export { connect, disconnect };
 export const sleep = ms => new Promise(r => setTimeout(r, ms));

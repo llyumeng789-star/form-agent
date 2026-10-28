@@ -51,12 +51,17 @@
 ## 快速开始
 
 ```bash
+# 0. 安装依赖
+npm i playwright-core
+
 # 1. 启动常驻浏览器（隔离 profile）
 ./browser_daemon.sh        # 用 run_in_background 方式常驻
 
 # 2. 运行示例：在北森表单页自动填写（个人信息来自本地 JSON，不入库）
 node examples/beisen_fill_example.mjs
 ```
+
+> 库本身与具体站点解耦：`connect({ host })` 的 host、示例中的域名与个人信息均为占位符，接入新站点只需替换目标域名与字段映射。
 
 ## License
 
