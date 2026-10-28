@@ -1,0 +1,13 @@
+{
+  "name": "张三",
+  "email": "zhangsan@example.com",
+  "phone": "13800000000",
+  "idNumber": "110101200001010011",
+  "gender": "女",
+  "birthDate": "2000-01-01",
+  "height": "165",
+  "weight": "50",
+  "ethnicity": "汉族",
+  "photoPath": "/absolute/path/to/photo.jpg",
+  "resumePath": "/absolute/path/to/resume.pdf"
+}
